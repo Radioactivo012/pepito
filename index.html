@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+    <style>
+        label{
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        
+        <h1 style="text-align: center;">Formulario de Registro para Cuidado de Mascota</h1>
+        <br>
+        <br>
+        <br>
+    </header>
+    
+    <main>
+        <section>
+           
+                <h2 style="background-color: rgb(0, 15, 128); color: white;">Datos del dueño</h2>
+            
+                    <form action="">
+                        <label for="nombre">Nombre del Propietario de Mascotas</label>
+                        <input style="width: 300px;" type="text" id="nombre" name="nombre">
+
+                        <label for="direccion">Dirección</label>
+                        <input style="width: 300px;" type="text" id="direccion" name="direccion">
+
+                        <label  for="calle1">Dirección de la Calle</label>
+                        <input style="width: 300px;" type="text" id="calle1" name="calle1">
+
+                        <label for="calle2">Dirección de la Calle 2</label>
+                        <input style="width: 300px;" type="text" id="calle2" name="calle2">
+
+                        <label for="ciudad">Ciudad</label>
+                        <input style="width: 300px;" type="text" id="ciudad" name="ciudad">
+
+                        <label  for="estado">Estado / Provincia</label>
+                        <input style="width: 300px;" type="text" id="estado" name="estado">
+
+                        <label for="codigo">Código Postal</label>
+                        <input style="width: 300px;" type="number" id="codigo" name="codigo">
+
+                <h2 style="background-color: rgb(0, 15, 128); color: white;">Datos de la Mascota</h2>
+            
+                    <label for="nombreMascota">Nombre de la Mascota</label>
+                    <input style="width: 300px;" type="text" id="nombreMascota" name="nombreMascota">
+
+                    <label  for="tipo">Tipo de Mascota (Perro, Gato, etc.)</label>
+                    <input style="width: 300px;" type="text" id="tipo" name="tipo">
+
+                    <label for="raza">Raza</label>
+                    <input style="width: 300px;" type="text" id="raza" name="raza">
+
+                    <label for="edad">Edad</label>
+                    <input style="width: 300px;" type="number" id="edad" name="edad">
+
+                    <label for="sexo">Sexo</label>
+                    <select style="width: 300px;" id="sexo" name="sexo">
+                        <option value="macho">Macho</option>
+                        <option value="hembra">Hembra</option>
+                    </select>
+
+                    <label for="peso">Peso (kg)</label>
+                    <input style="width: 300px;" type="number" id="peso" name="peso">
+        
+
+                
+                <h2 style="background-color: rgb(0, 15, 128); color: white;">Información de Contacto</h2>
+                
+                    <label for="telefono">Teléfono</label>
+                    <input style="width: 300px;" type="tel" id="telefono" name="telefono">
+
+                    <label style="position: relative; top: 10px;" for="correo">Correo Electrónico</label>
+                    <input style="width: 300px; position: relative; top: 10px;" type="email" id="correo" name="correo">
+
+                    <label style="position: relative; top: 20px;" for="comentarios">Comentarios o Información Adicional</label>
+                    <textarea style="width: 300px; height: 80px; position: relative; top: 20px;" id="comentarios" name="comentarios"></textarea>
+
+                    <input style="background-color: rgb(0, 15, 128); color: white; padding: 10px 20px;" type="submit" value="Enviar formulario">
+              
+            </form>
+        </section>
+    </main>
+</body>
+</html>
